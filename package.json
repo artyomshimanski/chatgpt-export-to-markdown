@@ -1,0 +1,40 @@
+{
+  "name": "chatgpt-export-to-markdown",
+  "version": "1.0.0",
+  "description": "Convert your ChatGPT data export (conversations.json) into one Markdown note per chat, for Obsidian or any notes app. Keeps only the branch you saw. No dependencies.",
+  "type": "module",
+  "bin": {
+    "chatgpt-export-to-markdown": "bin/chatgpt-export-to-markdown.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node test/make-fixture.js && node --test"
+  },
+  "keywords": [
+    "chatgpt",
+    "chatgpt-export",
+    "conversations.json",
+    "markdown",
+    "obsidian",
+    "openai",
+    "export",
+    "converter",
+    "cli",
+    "backup"
+  ],
+  "author": "Artyom Shimanski (https://chattomarkdown.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/artyomshimanski/chatgpt-export-to-markdown#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artyomshimanski/chatgpt-export-to-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/artyomshimanski/chatgpt-export-to-markdown/issues"
+  }
+}
